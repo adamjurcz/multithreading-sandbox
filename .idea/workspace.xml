@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ccb0ce67-a482-49cc-abd5-3e65ab0d7029" name="Changes" comment="Init commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/put/lesson7/FibonacciCallable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/put/lesson7/LessonRunner.java" afterDir="false" />
+    <list default="true" id="ccb0ce67-a482-49cc-abd5-3e65ab0d7029" name="Changes" comment="workspace">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/put/lesson3/LessonRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/put/lesson3/LessonRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/put/lesson1/LessonRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/put/lesson1/LessonRunner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +50,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.LessonRunner.executor": "Run",
+    "Application.org.put.lesson1.LessonRunner.executor": "Run",
     "Application.org.put.lesson3.LessonRunner.executor": "Run",
     "Application.org.put.lesson4.LessonRunner.executor": "Run",
     "Application.org.put.lesson5.LessonRunner.executor": "Run",
@@ -80,7 +79,7 @@
       <recent name="org.put.lesson3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.org.put.lesson3.LessonRunner">
+  <component name="RunManager" selected="Application.org.put.lesson6.LessonRunner">
     <configuration name="LessonRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.put.lesson7.LessonRunner" />
       <module name="multithreading-sandbox" />
@@ -94,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.put.lesson3.LessonRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.put.lesson3.LessonRunner" />
+    <configuration name="org.put.lesson1.LessonRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.put.lesson1.LessonRunner" />
       <module name="multithreading-sandbox" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.put.lesson3.*" />
+          <option name="PATTERN" value="org.put.lesson1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.put.lesson4.LessonRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.put.lesson4.LessonRunner" />
+    <configuration name="org.put.lesson3.LessonRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.put.lesson3.LessonRunner" />
       <module name="multithreading-sandbox" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.put.lesson4.*" />
+          <option name="PATTERN" value="org.put.lesson3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.put.lesson6.LessonRunner" />
+        <item itemvalue="Application.org.put.lesson1.LessonRunner" />
         <item itemvalue="Application.org.put.lesson3.LessonRunner" />
         <item itemvalue="Application.LessonRunner" />
-        <item itemvalue="Application.org.put.lesson6.LessonRunner" />
         <item itemvalue="Application.org.put.lesson5.LessonRunner" />
-        <item itemvalue="Application.org.put.lesson4.LessonRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -184,7 +183,7 @@
       <workItem from="1747470498898" duration="4946000" />
       <workItem from="1747554983847" duration="7134000" />
       <workItem from="1747591506387" duration="6386000" />
-      <workItem from="1747640261308" duration="4490000" />
+      <workItem from="1747640261308" duration="6294000" />
     </task>
     <task id="LOCAL-00001" summary="Init commit">
       <option name="closed" value="true" />
@@ -194,7 +193,23 @@
       <option name="project" value="LOCAL" />
       <updated>1747593919698</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Init commit">
+      <option name="closed" value="true" />
+      <created>1747647152486</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1747647152486</updated>
+    </task>
+    <task id="LOCAL-00003" summary="workspace">
+      <option name="closed" value="true" />
+      <created>1747647300051</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1747647300051</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,6 +217,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Init commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Init commit" />
+    <MESSAGE value="workspace" />
+    <option name="LAST_COMMIT_MESSAGE" value="workspace" />
   </component>
 </project>

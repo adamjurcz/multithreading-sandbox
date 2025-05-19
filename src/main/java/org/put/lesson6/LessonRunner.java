@@ -1,12 +1,15 @@
 package org.put.lesson6;
 
-import lombok.SneakyThrows;
 import lombok.extern.slf4j.Slf4j;
 
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
 import static java.lang.Thread.sleep;
+
+/**
+ * Lekcja o zakleszczeniu pomiędzy lockami
+ */
 
 @Slf4j
 public class LessonRunner {
@@ -17,7 +20,6 @@ public class LessonRunner {
         deadlockExample();
     }
 
-    @SneakyThrows
     public static void deadlockExample() {
         LessonRunner lessonRunner = new LessonRunner();
         new Thread(lessonRunner::deadlockOperation1).start();
@@ -53,5 +55,4 @@ public class LessonRunner {
         lock1.unlock();
         lock2.unlock();
     }
-    
 }

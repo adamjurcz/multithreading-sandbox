@@ -9,7 +9,7 @@ import java.util.concurrent.Executors;
 import java.util.stream.IntStream;
 
 /**
- *
+ * Lekcja o synchronizacji/braku synchronizacji i wyścigu
  */
 
 @Slf4j

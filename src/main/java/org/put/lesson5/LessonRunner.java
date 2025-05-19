@@ -1,5 +1,9 @@
 package org.put.lesson5;
 
+/**
+ * Lekcja o volatile i sposoby na przetestowanie
+ */
+
 public class LessonRunner {
     public static void main(String[] args) throws InterruptedException {
         LessonRunner lessonRunner = new LessonRunner();

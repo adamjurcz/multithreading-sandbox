@@ -5,28 +5,28 @@ package org.put.lesson1;
  */
 
 public class LessonRunner {
-    public static void main(String[] args) {
-        var lessonRunner = new LessonRunner();
-        //lessonRunner.runThreadWithThreadSubclass();
-        //lessonRunner.runThreadWithRunnableExplicitImplementation();
-        //lessonRunner.runThreadWithRunnableAnonymousImplementation();
-
+    public static void main(String[] args) throws InterruptedException {
+        runThreadWithThreadSubclass();
+        runThreadWithRunnableExplicitImplementation();
+        runThreadWithRunnableAnonymousImplementation();
     }
 
-    void runThreadWithThreadSubclass() {
+    private static void runThreadWithThreadSubclass() throws InterruptedException {
         MyThread myThread = new MyThread("MyThread");
         myThread.start();
-        System.out.println("First method - Thread is running - " + Thread.currentThread().getName());
+        System.out.println("First method - Thread is running - " + myThread.getName());
+        myThread.join();
     }
 
-    void runThreadWithRunnableExplicitImplementation() {
+    private static void runThreadWithRunnableExplicitImplementation() throws InterruptedException {
         Runnable runnable = new MyRunnable();
         Thread thread = new Thread(runnable, "MyRunnableExplicitImplement");
         thread.start();
-        System.out.println("Second method - Thread is running - " + Thread.currentThread());
+        System.out.println("Second method - Thread is running - " + thread.getName());
+        thread.join();
     }
 
-    void runThreadWithRunnableAnonymousImplementation() {
+    private static void runThreadWithRunnableAnonymousImplementation() throws InterruptedException {
         Runnable runnable = new Runnable() {
             @Override
             public void run() {
@@ -35,6 +35,7 @@ public class LessonRunner {
         };
         Thread thread = new Thread(runnable);
         thread.start();
-        System.out.println("Third method - Thread is running - " + Thread.currentThread());
+        System.out.println("Third method - Thread is running - " + thread.getName());
+        thread.join();
     }
 }
