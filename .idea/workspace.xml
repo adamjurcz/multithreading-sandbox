@@ -80,7 +80,7 @@
       <recent name="org.put.lesson3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LessonRunner">
+  <component name="RunManager" selected="Application.org.put.lesson3.LessonRunner">
     <configuration name="LessonRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.put.lesson7.LessonRunner" />
       <module name="multithreading-sandbox" />
@@ -148,8 +148,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LessonRunner" />
         <item itemvalue="Application.org.put.lesson3.LessonRunner" />
+        <item itemvalue="Application.LessonRunner" />
         <item itemvalue="Application.org.put.lesson6.LessonRunner" />
         <item itemvalue="Application.org.put.lesson5.LessonRunner" />
         <item itemvalue="Application.org.put.lesson4.LessonRunner" />
